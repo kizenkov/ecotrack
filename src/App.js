@@ -1032,7 +1032,7 @@ function App() {
         <br/>
         <span>Выбранные пункты назначения: </span>
         <br/><br/>
-        {townsList.map(el => <button key={el} className="destinations" onClick={delTown} disabled={disTowns}>{el}   ❌</button>)}
+        {townsList.map(el => <button key={el} className="destinations" onClick={delTown} disabled={disTowns}>{el}</button>)}
         <br/><br/><br/>
         <button onClick={start} className="button" disabled={disButton}>Рассчитать</button>
         <br/><br/>
